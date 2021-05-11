@@ -221,17 +221,18 @@ body {
   align-items: baseline;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 120px 70px;
+  justify-content: space-around;
   width: 100%;
 }
 
 .dashboard-opt-right {
   display: flex;
+  margin-left: 160px;
 }
 
 .heading-left {
   display: flex;
+  padding: 0px 50px;
   flex-direction: column;
 }
 
@@ -243,4 +244,14 @@ span.manage-dash-text {
   padding: 0px 30px;
 }
 
-.dashboard-opt-right div {}
+div.mid-justify {
+  width: 80%;
+  margin: 0px auto;
+}
+
+div.space {
+  height: 120px;
+  border: 1px solid transparent;
+  width: 100%;
+  display: block;
+}
