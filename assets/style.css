@@ -408,6 +408,7 @@
       .chart-right {
         width: 100%;
         margin: 0px 30px;
+        display: block;
       }
       .chart-left {
         width: 100%;
